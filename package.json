@@ -1,0 +1,12 @@
+{
+	"id" : "",
+	"version" : "2.1",
+	"dependency_check" : {
+		"sso_client/index.php" : "Unable to find the SSO client.  The SSO client must be installed into a subdirectory called 'sso_client' off the main Barebones CMS installation before installing this extension.",
+		"sso_client/config.php" : "Unable to find the SSO client configuration.  The SSO client must be installed before installing this extension."
+	},
+	"files" : {
+		"plugins/*" : "plugins",
+		"login_hook.php" : "login_hook.php"
+	}
+}
